@@ -5,7 +5,7 @@ import logo from "../assets/gamehub.webp"
 const NavBar = () => {
   return (
     <HStack>
-        <Image src={logo} boxSize="60px"/>
+        <Image m={2} src={logo} boxSize="60px"/>
         <Text>NavBar</Text>
     </HStack>
   )
